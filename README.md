@@ -8,7 +8,6 @@ This repository contains the code and database for the master's thesis project "
 * [Project Structure](#project-structure)
 * [Installation](#installation)
     * [R Packages](#r-packages)
-* [Usage](#usage)
 * [Database](#database)
 * [Author](#author)
 * [License](#license)
@@ -76,4 +75,30 @@ if (length(to_install) > 0) {
 
 # Load required libraries
 lapply(libraries, library, character.only = TRUE)
+```
+
+---
+
+### Database
+
+* Ensure you have Microsoft SQL Server installed and running (e.g., SQL Server Express or Developer Edition).
+* Make sure you have SQL Server Management Studio (SSMS) or Azure Data Studio installed to easily interact with your SQL Server instance.
+* Create the database: Connect to your SQL Server instance and execute the following SQL command to create your database (if it doesn't already exist):
+
+```sql
+CREATE DATABASE [HCPAnnotatorDB];
+GO
+USE [HCPAnnotatorDB];
+GO
+```
+A diagram of the database schema can be found in docs/database_design.pdf (if you have an graphic ER diagram).
+
+
+---
+### Author
+Pedro Mauritti Granjo - granjo@alphalyse.com
+
+
+### License
+This project is licensed under the [Choose an appropriate open-source license, e.g., MIT License, Apache 2.0 License]. See the LICENSE file for details.
 
