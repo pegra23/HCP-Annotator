@@ -34,21 +34,13 @@ An overview of the main folders and files in this repository:
 
 ## Installation
 
-To get the project up and running locally, follow these steps:
-
-1.  **Clone the repository:**
-
-    ```bash
-    git clone [https://github.com/pegra23/HCP-Annotator-Database.git](https://github.com/YOUR_GITHUB_USERNAME/HCP-Annotator-Database.git)
-    cd HCP-Annotator-Database
-    ```
 
 ### R Packages
 
 Open RStudio or your R console and run the following commands to install the necessary packages.
 
 ```R
-ibraries <- c(
+libraries <- c(
   "httr", "jsonlite", "tidyr","KEGGREST", "readr","tibble, "stringr", "dplyr","brendaDb"
 )
 
