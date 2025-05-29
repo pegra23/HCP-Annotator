@@ -10,7 +10,6 @@ This repository contains the code  from the master's thesis project "Enhancing t
     * [R Packages](#r-packages)
 * [Database](#database)
 * [Author](#author)
-* [License](#license)
 
 ---
 
