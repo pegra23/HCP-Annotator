@@ -1,6 +1,6 @@
 # HCP Annotator Database
 
-This repository contains the code and database for the master's thesis project "Enhancing the Identification of Host Cell Proteins of Concern in Biopharmaceuticals: Implementing an Integrative Approach." The project's goal is to improve the current centralized information on each HCP, as well as to develop a risk assessment classification system for HCP found in client samples.
+This repository contains the code  from the master's thesis project "Enhancing the Identification of Host Cell Proteins of Concern in Biopharmaceuticals: Implementing an Integrative Approach." The project's goal is to improve the current centralized information on each Host Cell Protein (HCP), as well as to develop a risk assessment classification system for HCPs found in client samples.
 
 ## Table of Contents
 
