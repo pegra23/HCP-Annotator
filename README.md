@@ -91,6 +91,3 @@ A diagram of the database schema can be found in docs/database_design.pdf (if yo
 Pedro Mauritti Granjo - granjo@alphalyse.com
 
 
-### License
-This project is licensed under the [Choose an appropriate open-source license, e.g., MIT License, Apache 2.0 License]. See the LICENSE file for details.
-
