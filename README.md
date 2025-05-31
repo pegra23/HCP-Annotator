@@ -74,16 +74,7 @@ lapply(libraries, library, character.only = TRUE)
 
 * Ensure you have Microsoft SQL Server installed and running (e.g., SQL Server Express or Developer Edition).
 * Make sure you have SQL Server Management Studio (SSMS) or Azure Data Studio installed to easily interact with your SQL Server instance.
-* Create the database: Connect to your SQL Server instance and execute the following SQL command to create your database (if it doesn't already exist):
-
-```sql
-CREATE DATABASE [HCPAnnotatorDB];
-GO
-USE [HCPAnnotatorDB];
-GO
-```
-A diagram of the database schema can be found in docs/database_design.pdf (if you have an graphic ER diagram).
-
+* Create the database: Connect to your SQL Server instance
 
 ---
 ### Author
