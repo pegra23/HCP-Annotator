@@ -1,3 +1,21 @@
+#' @title IEDB tools DB Query
+#'
+#' @description
+#' This script processes information from IEDB database and its tools
+#' 
+#'
+#' @details
+#' You can retrieve info from IEDB thorugh a query approach. The script is set up to needing exclusively species scientific 
+#'names. Some functions were created for epitope prediction of MHC I and MHC II but never properly used (beta version)
+#' 
+#'
+#' @author Pedro Granjo
+#' @date 5-JAN-2025
+#'
+#'
+NULL  
+
+############################# Install Packages if necessary################################################
 # List of required libraries
 libraries <- c(
   "httr", "jsonlite", "tibble", "dplyr", "stringr"
