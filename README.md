@@ -28,7 +28,6 @@ The project includes:
 
 An overview of the main folders and files in this repository:
 * **`R/`**: Contains all R source code for the project.
-* **`data/`**: A duplicate data file from the result SQL database.
 * **`sql/`**: Contains SQL scripts related to your database schema and operations.
 
 ## Installation
